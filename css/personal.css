@@ -1,0 +1,43 @@
+/* 웹폰트 */
+@font-face { font-family: 'OTEnjoystoriesBA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'BMJUA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+.YTPOverlay {
+  background-color: rgba(0, 0, 0, 0.63) !important;
+}
+
+.image_in_youtube {
+  position: absolute;
+  top: 400px;
+  text-align: center;
+  width: 100%;;
+}
+
+.text_in_youtube {
+  color: white;
+  margin-top: 20px;
+  font-size: 50px;
+  font-family: 'OTEnjoystoriesBA';
+}
+
+.image_in_youtube > img {
+  width: 500px;
+}
+
+.introduce_title {
+  font-family: 'BMJUA';
+  font-size: 30px;
+  text-align: center;
+}
+
+.portfolio_info {
+  margin-top: 10px;
+  height: 50px;
+}
+
+.intro {
+  color: black;
+  margin-top: 20px;
+  font-size: 50px;
+  font-family: 'OTEnjoystoriesBA';
+}
